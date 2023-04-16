@@ -1,11 +1,13 @@
-var h1 = document.getElementsByTagName('h1')[0];
-var start = document.getElementById('strt');
-var stop = document.getElementById('stp');
-var reset = document.getElementById('rst');
-var sec = 0;
-var min = 0;
-var hrs = 0;
-var t;
+//5- Realizar una web con un cronómetro, que tenga las opciones de iniciar, reset (volver el cronómetro a 0) y pausar.
+
+let h1 = document.getElementsByTagName('h1')[0];
+let start = document.getElementById('strt');
+let stop = document.getElementById('stp');
+let reset = document.getElementById('rst');
+let sec = 0;
+let min = 0;
+let hrs = 0;
+let t;
 
 function tick(){
     sec++;
